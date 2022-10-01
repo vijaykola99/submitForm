@@ -1,0 +1,108 @@
+/* Write your CSS code here */
+.app-background {
+  padding: 10px;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.main-heading {
+  font-family: 'Roboto';
+  font-weight: 700;
+  color: #ea580c;
+}
+.form-background {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 40vh;
+  width: 30vw;
+  box-shadow: 0px 4px 16px 0px #bfbfbf;
+  padding: 20px;
+  padding-left: 30px;
+  padding-right: 30px;
+  border-radius: 10px;
+}
+.labels {
+  font-family: 'Roboto';
+  color: #475569;
+  font-weight: 600;
+  font-size: 12px;
+  margin-bottom: 10px;
+}
+.input {
+  border: 1px solid #cbd2d9;
+  border-radius: 5px;
+  margin-bottom: 20px;
+  height: 4vh;
+  outline: none;
+  padding: 10px;
+  padding-left: 20px;
+  font-weight: 600;
+}
+.submit-button {
+  align-self: center;
+  padding: 8px;
+  background: #ea580c;
+  color: #ffffff;
+  font-family: 'Roboto';
+  border: 0px;
+  padding-left: 10px;
+  padding-right: 10px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-weight: 600;
+}
+.submit-button:hover {
+  background: #ff0b37;
+}
+.input2 {
+  border: 1px solid #ff0b37;
+  background: #fef2f4;
+  margin-bottom: 0px;
+}
+
+.error {
+  margin-top: 0px;
+  margin-bottom: 20px;
+  color: #ff0b37;
+  font-family: 'Roboto';
+  font-weight: 500;
+  font-size: 14px;
+}
+.success-image {
+  height: 70px;
+  width: 70px;
+}
+.form-background2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 40vh;
+  width: 30vw;
+  box-shadow: 0px 4px 16px 0px #bfbfbf;
+  padding: 20px;
+  padding-left: 30px;
+  padding-right: 30px;
+  border-radius: 10px;
+}
+.submitted-success-paragraph {
+  font-family: 'Roboto';
+  color: #475569;
+  font-weight: 600;
+  font-size: 12px;
+  margin-bottom: 10px;
+  font-size: 24px;
+  margin-bottom: 12px;
+  text-align: center;
+}
+@media screen and (max-width: 576px) {
+  .form-background {
+    width: 80vw;
+  }
+  .form-background2 {
+    width: 80vw;
+  }
+}
